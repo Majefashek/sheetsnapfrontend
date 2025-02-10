@@ -127,7 +127,7 @@
         formData.append("music_length", document.getElementById("music_length").value);
         formData.append("audio_file", document.getElementById("audio_file").files[0]);
 
-        fetch("http://reepeet.ai/api/v1/upload-reference-track/", {
+        fetch("https://reepeet.ai/api/v1/upload-reference-track/", {
             method: "POST",
             body: formData,
             headers: {
